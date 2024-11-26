@@ -573,3 +573,16 @@ input:focus, textarea:focus {
         margin: 10px 0; /* Adjust margin for vertical spacing */
     }
 }
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+}
